@@ -1,0 +1,89 @@
+/*Elementos generales*/
+body{
+      background-color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+fieldset{
+    border: 2px solid  #FFDD00;   
+}
+
+/*Formulario*/
+.formulario h1{
+    font-size: 3rem;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+.formulario .container{
+    max-width: 800px;
+    text-align: center;
+}
+.formulario .titulo{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+}
+.formulario .subtitulo{
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.formulario .texto-blanco{
+    color: white;
+}
+.formulario .columna{
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Evento label{
+    color: white;
+    text-align: center;
+}
+.formulario input{
+    border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+.formulario select{
+    border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+.formulario input:hover {
+    cursor:pointer;
+  }
+.botones input[type="submit"], .botones input[type="reset"]{
+    display: inline-block; 
+    margin: 40px 15px; 
+    
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in;
+}
+.botones input[type="submit"]:hover, .botones input[type="reset"]:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid #FFDD00;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    height: 10px;
+    font-weight: bold;
+  }
